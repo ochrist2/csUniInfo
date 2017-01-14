@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Science in Ontario</title>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+
+        h1{
+            font-family: Impact, Charcoal, sans-serif;
+            font-size: 40px;
+            color: white;
+            text-shadow:
+                    -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000
+        }
+        img{
+            width: 700px;
+            height: 700px;
+            border: solid;
+            border-radius: 3%;
+            border-width: 5px;
+
+        }
+        .paddin{
+            padding: 0% 20% 0% 20%;
+        }
+        body {
+            background: url("dream_house-wallpaper-1920x1080.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .btn{
+            width: 67%;
+            heigh: 600px;
+            font-size: 20px;
+        }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#second").hide();
+            $("#third").hide();
+            $("#fourth").hide();
+            $("#next1").click(function(){
+                $("#first").hide();
+                $("#second").fadeIn(500);
+            });
+            $("#next2").click(function(){
+                $("#second").hide();
+                $("#third").fadeIn(500);
+            });
+            $("#prev1").click(function(){
+                $("#second").hide();
+                $("#first").fadeIn(500);
+            });
+            $("#next3").click(function(){
+                $("#third").hide();
+                $("#fourth").fadeIn(500);
+            });
+            $("#prev2").click(function(){
+                $("#third").hide();
+                $("#second").fadeIn(500);
+            });
+            $("#prev3").click(function(){
+                $("#fourth").hide();
+                $("#third").fadeIn(500);
+            });
+
+
+        });
+    </script>
+</head>
+<body>
+<div class="text-center">
+    <h1 style="color: cornflowerblue">
+        Picking an Ontario University for Computer Science (2016)
+    </h1>
+
+    <div class="paddin" id="fourth">
+        <h1>Some thoughts to consider:</h1>
+        <br>
+        <br>
+        <p style="font-size: 20px;background-color: aliceblue; border: solid; border-radius: 3%; background-clip: content-box">Although picking a school purely based on its academic reputation isn't a bad thing to do, it is important to consider
+            other factors when deciding where you want to attend school for 4-5 years of your life. Whether you want to do co-op, want to work in a certain city, want an
+            "authentic" university experience, want an exceptional student life, want to attend somewhere for the prestige, and
+            whether you just like the school are some examples of things to keep in mind before you decide. With this in mind, the following are the best
+            choices for computer science when applying to an Ontario university in 2017.
+        </p>
+        <br>
+        <br>
+        <button id="prev3" class="btn btn-info">Previous</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p style="color: azure">Contact me at: owendot2011@gmail.com</p>
+
+    </div>
+    <div class="paddin" id="first">
+        <h1>Tier One</h1>
+        <p class="text-center" style="font-size: 20px; background-color: aliceblue; background-clip: content-box; border: solid; border-radius: 2%">These are the best Universities in Ontario to attend for CS. To get in you need over a 90% average, and for
+            the University of Waterloo you have to submit an application to show you have sufficient extra circulars. These schools carry with them a high level of prestige,
+            have a very strong focus on Computer Science, and are incredibly
+            competitive to get in.</p>
+        <div class="row">
+            <div class="col-md-6"><a href="uoft.html"><img src="u%20of%20t.png" class="img-responsive center-block" alt="University of Toronto">
+            </a></div>
+            <div class="col-md-6"><a href="uw.html"><img src="uw.jpg" class="img-responsive center-block" alt="University of Waterloo">
+            </a></div>
+        </div>
+        <br>
+        <button id="next1" class="btn btn-primary">Next</button>
+    </div>
+    <div class="paddin" id="second">
+        <h1>Tier Two</h1>
+        <p class="text-center" style="font-size: 20px;background-color: aliceblue; background-clip: content-box; border: solid; border-radius: 2%">As Tier 2 implies, these schools are the next
+            best after Tier 1. Also requiring a competitive average of around 85-90+%, these schools are not exponentially worse than
+            the ones listed in Tier 1, but have a smaller focus on Computer Science as a program. Despite this, these schools
+            are top 10 schools in Canada, and carry with them a high level of prestige.</p>
+        <div class="col-md-4"><a href="queens.html">
+            <img src="queens.jpg" class="img-responsive center-block" alt="Queens University">
+        </a></div>
+        <div class="col-md-4"><a href="uwo.html">
+            <img src="uwo.jpg" class="img-responsive center-block" alt="University of Western Ontario">
+        </a></div>
+        <div class="col-md-4"><a href="mac.html">
+            <img src="mac.jpg" class="img-responsive center-block" alt="McMaster University">
+        </a> <br>
+            <br>
+            <br></div>
+        <div class="row text-center">
+            <div class="col-md-6"><button id="prev1" class="btn btn-info">Previous</button></div>
+            <div class="col-md-6"><button id="next2" class="btn btn-primary">Next</button></div>
+        </div>
+
+    </div>
+    <div class="paddin" id="third">
+        <h1>Tier Three</h1>
+        <p class="text-center" style="font-size: 20px;background-color: aliceblue; background-clip: content-box; border: solid; border-radius: 2%">These are the schools you should
+            apply to if you have around an 80% average, or slightly less. By no means are these schools bad, in fact
+            they're the only other Ontario universities on
+            <a href="http://www.topuniversities.com/university-rankings/university-subject-rankings/2016/computer-science-information-systems">topuniversities.com's </a>
+            list of best CS schools in the world, but they are a downgrade from the previously mentioned schools.</p>
+        <div class="col-md-4"><a href="uo.html">
+            <img src="uottawa.png" class="img-responsive center-block" alt="University of Ottawa">
+        </a></div>
+        <div class="col-md-4"><a href="york.html">
+            <img src="york-university-logo.png" class="img-responsive center-block" alt="York University">
+        </a></div>
+        <div class="col-md-4"><a href="carlton.html"><img src="CarletonWide_K_186.gif" class="img-responsive center-block" alt="Carlton University">
+        </a> <br>
+            <br>
+            <br></div>
+        <div class="row">
+            <div class="col-md-6"><button id="prev2" class="btn btn-info">Previous</button></div>
+            <div class="col-md-6"><button id="next3" class="btn btn-primary">Next</button></div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
